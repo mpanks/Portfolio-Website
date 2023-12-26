@@ -21,14 +21,14 @@
 		to your new<br />SvelteKit app
 	</h1>
 
-	<h2>
+	<h2 style="background-color:powderblue;color:darkgreen">
 		try editing <strong>src/routes/+page.svelte</strong>
-		<p> First Edit<br>with a break line!!</p>
+		<p style="background-color:tomato;"> First Edit<br>with a break line!!</p>
 	</h2>
 
 	<Counter />
 
-	<h3> Check out my <a href = "https://github.com/mpanks">github</a></h3>
+	<h3> <em>Check out my <strong><a href = "https://github.com/mpanks">GitHub</a></strong></em></h3>
 </section>
 
 <style>

@@ -1,26 +1,35 @@
 <svelte:head>
-	<title>About</title>
+	<title>About Me</title>
 	<meta name="description" content="About this app" />
 </svelte:head>
 
+<section>
 <div class="text-column">
-	<h1>About this app</h1>
-
-	<p>
-		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
-		following into your command line and following the prompts:
-	</p>
-
-	<pre>npm create svelte@latest</pre>
-
-	<p>
-		The page you're looking at is purely static HTML, with no client-side interactivity needed.
-		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading.
+	<h1>About me</h1>
+	<p >
+		I'm Matthew, a second year student of the University of Hull, studying BSC Computer Science with a 
+		years industrial placement
 	</p>
 
 	<p>
-		The <a href="/sverdle">Sverdle</a> page illustrates SvelteKit's data loading and form handling. Try
-		using it with JavaScript disabled!
+		My projects can be viewed on my <a href="https://github.com/mpanks">GitHub</a>,
+		 which showcase both University assignments and course material as well as personal projects such as this one.<br>
+		Please feel free to take a look at some of the repositories and see what I've achieved.
+	</p>
+
+	<p>
+		The source for this website can also be found in my 
+		<a href = "https://github.com/mpanks/Portfolio-Website">Portfolio-Website repository</a>
+	</p>
+	<p>
+		This website was created using <cite>Svelte</cite>, and is a <cite>SvelteKit</cite> app, you can view their documentation 
+		<a href="https://svelte.dev/docs/introduction">here</a>
 	</p>
 </div>
+</section>
+<style>
+	section{
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: larger;
+	}
+</style>
