@@ -38,7 +38,7 @@
 		</tr>
 		<tr>
 			<td>GitHub</td>
-			<td>MPanks</td>
+			<td><a href = "https://github.com/mpanks">MPanks</a></td>
 		</tr>
 		<tr>
 			<td>LinkdIn</td>
