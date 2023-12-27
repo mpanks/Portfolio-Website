@@ -18,12 +18,11 @@
 			</picture>
 		</span>
 
-		to your new<br />SvelteKit app
+		to my<br > <em>website</em>
 	</h1>
 
-	<h2 style="background-color:powderblue;color:darkgreen">
-		try editing <strong>src/routes/+page.svelte</strong>
-		<p style="background-color:tomato;"> First Edit<br>with a break line!!</p>
+	<h2>
+		<em>TODO:<br>-Add pie chart <br>-Add drop down box<br>-Set pie chart to update with counter</em>
 	</h2>
 
 	<Counter />

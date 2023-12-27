@@ -7,7 +7,7 @@
 <div class="text-column">
 	<h1>About me</h1>
 	<p >
-		I'm Matthew, a second year student of the University of Hull, studying BSC Computer Science with a 
+		I'm Matthew, a second year student at the University of Hull, studying BSC Computer Science with a 
 		years industrial placement
 	</p>
 
@@ -25,6 +25,28 @@
 		This website was created using <cite>Svelte</cite>, and is a <cite>SvelteKit</cite> app, you can view their documentation 
 		<a href="https://svelte.dev/docs/introduction">here</a>
 	</p>
+	
+	<h1><strong>Contact Me:</strong></h1>
+	<table>
+		<tr>
+			<td>Personal Email</td>
+			<td>MatthewPanksy@gmail.com</td>
+		</tr>
+		<tr>
+			<td>Student Email</td>
+			<td>M.Panks-2021@hull.ac.uk</td>
+		</tr>
+		<tr>
+			<td>GitHub</td>
+			<td>MPanks</td>
+		</tr>
+		<tr>
+			<td>LinkdIn</td>
+			<td><a href="https://www.linkedin.com/in/matthew-panks-16a4a5251/">Matthew Panks</a></td>
+		</tr>
+		
+	</table>
+	
 </div>
 </section>
 <style>
