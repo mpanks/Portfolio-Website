@@ -21,11 +21,7 @@
 		The source for this website can also be found in my 
 		<a href = "https://github.com/mpanks/Portfolio-Website">Portfolio-Website repository</a>
 	</p>
-	<p>
-		This website was created using <cite>Svelte</cite>, and is a <cite>SvelteKit</cite> app, you can view their documentation 
-		<a href="https://svelte.dev/docs/introduction">here</a>
-	</p>
-	
+
 	<h1><strong>Contact Me:</strong></h1>
 	<table>
 		<tr>
@@ -46,6 +42,11 @@
 		</tr>
 		
 	</table>
+	<p>
+		<br>
+		This website was created using <cite>Svelte</cite>, and is a <cite>SvelteKit</cite> app, you can view their documentation 
+		<a href="https://svelte.dev/docs/introduction">here</a>
+	</p>
 	
 </div>
 </section>
