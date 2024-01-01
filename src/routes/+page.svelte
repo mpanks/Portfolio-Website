@@ -2,6 +2,13 @@
 	import Counter from './Counter.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
+	import {spring, tweened} from 'svelte/motion';
+	import Pie from './Pie.svelte';
+
+	let percent = 0;
+	const store = tweened(0, {duration: 1000});
+	//const store = spring(0, {stiffness: 0.3, damping:0.3});
+	$: store.set(percent);
 </script>
 
 <svelte:head>
@@ -22,9 +29,16 @@
 	</h1>
 
 	<h2>
-		<em>TODO:<br>-Add pie chart <br>-Add drop down box<br>-Set pie chart to update with counter</em>
+		<em>TODO:<br>
+			-Add drop down box<br>
+			-Set pie chart to update with counter</em>
 	</h2>
 
+	<label>
+		Percent
+		<input type="number" min = "0" max="100" bind:value={percent}>
+	</label>
+	<Pie size = {200} percent={$store}/>
 	<Counter />
 
 	<h3> <em>Check out my <strong><a href = "https://github.com/mpanks">GitHub</a></strong></em></h3>
